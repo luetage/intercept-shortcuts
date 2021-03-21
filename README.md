@@ -1,0 +1,3 @@
+# Intercept Shortcuts
+
+This is a simple userscript stopping websites from hijacking shortcuts intended for the browser. The original solution to this problem can be found here: [https://superuser.com/questions/168087/how-to-forbid-keyboard-shortcut-stealing-by-websites-in-firefox](https://superuser.com/questions/168087/how-to-forbid-keyboard-shortcut-stealing-by-websites-in-firefox). I adapted this for my personal needs in Vivaldi browser. I’m using single key shortcuts and websites like Github or Discord often interfere with navigation. The script intercepts all shortcuts but whitelisted ones. You should be able to easily adapt this for your own usecase.
