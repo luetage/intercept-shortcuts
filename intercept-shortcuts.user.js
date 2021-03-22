@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name       Intercept Shortcuts
-// @version    0.6
+// @homepageURL https://github.com/luetage/intercept-shortcuts
 // @description Stops websites from hijacking keyboard shortcuts.
-// @match      https://*/*
+// @version    0.7
+// @match      *://*/*
 // @run-at     document-start
 
 {
