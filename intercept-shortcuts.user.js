@@ -18,9 +18,9 @@
     }
 
     let si = 0;
-    const keycodes = ['Escape', 'Tab', 'Enter', ' ', 'Shift', 'LeftArrow', 'DownArrow', 'UpArrow', 'RightArrow']; //whitelist
+    const keycodes = ['Escape', 'Tab', 'Enter', ' ', 'Shift', 'ArrowLeft', 'ArrowDown', 'ArrowUp', 'ArrowRight']; //whitelist
     document.addEventListener('keydown', e => {
-        // console.log(e.key);
+        console.log(e.key);
         if (e.key === 'j' && e.altKey) { //shortcut for letting the next shortcut pass (alt-j)
             si = 1;
             document.addEventListener('keyup', pass);
